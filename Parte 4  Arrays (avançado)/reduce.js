@@ -33,4 +33,11 @@ const pessoas = [
   { nome: "Angela", idade: 16 },
   { nome: "Anna", idade: 20 },
   { nome: "Lara", idade: 55 },
-];
+]; 
+
+const maisVelha = pessoas.reduce(function(acumulador, valor){
+    if(acumulador.idade > valor.idade) return acumulador;
+    return valor;
+}); //acumulador começa no primeiro elemento
+
+console.log(maisVelha);
