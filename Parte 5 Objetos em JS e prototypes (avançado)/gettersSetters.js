@@ -9,9 +9,24 @@ function Produto(nome, preco, estoque) {
             return estoque;
         },
         set: function(valor) {
-            
+            if (typeof valor !== 'number'){
+                    throw new TypeError("Mensagem de erro");
+            }
         }
     });
 }
 
-console.log(p1.estoque)
+function criaProduto(nome){
+    return {
+        get nome(){
+            return nome;
+        },
+        set nome(valor){
+
+        }
+    }
+}
+
+const p2 = criaProduto("camiseta");
+
+console.log(p2.nome);
