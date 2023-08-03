@@ -1,0 +1,27 @@
+LEMBRE-SE, o que está entre [Colchetes] é apenas um exempo de parâmetro para ser adicionado! 
+
+npm init [-y]: Inicia um novo projeto npm criando um arquivo "package.json". O parâmetro opcional "-y" aceita todas as configurações padrão sem a necessidade de respostas interativas.
+
+npm install [pacote] [--global|-g]: Instala um pacote específico no projeto. O parâmetro opcional "--global" ou "-g" instala o pacote globalmente.
+
+npm uninstall [pacote]: Desinstala um pacote específico do projeto.
+
+npm update: Atualiza os pacotes do projeto para as versões mais recentes, de acordo com as restrições definidas no arquivo "package.json".
+
+npm outdated: Mostra uma lista de pacotes desatualizados no projeto.
+
+npm run [script]: Executa um script definido no arquivo "package.json" sob a seção "scripts".
+
+npm search [palavra-chave]: Pesquisa por pacotes npm com a palavra-chave fornecida.
+
+npm info [pacote]: Mostra informações detalhadas sobre um pacote específico.
+
+npm list: Mostra a árvore de dependências do projeto.
+
+npm publish: Publica um pacote no registro npm.
+
+npm version [versão]: Atualiza a versão do pacote e cria uma nova tag no Git.
+
+npm audit: Verifica o projeto em busca de vulnerabilidades de segurança.
+
+npm login: Faz login na sua conta do npm para permitir o acesso ao registro para publicação de pacotes.

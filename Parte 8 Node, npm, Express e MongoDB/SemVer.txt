@@ -1,0 +1,21 @@
+Versão Major (MAJOR):
+
+O primeiro número representa a versão major.
+É alterado quando há mudanças incompatíveis com versões anteriores do pacote.
+Isso significa que a atualização pode quebrar a compatibilidade com código que dependia de versões anteriores.
+Exemplo: 1.0.0 para 2.0.0
+Versão Minor (MINOR):
+
+O segundo número representa a versão minor.
+É alterado quando novas funcionalidades são adicionadas ao pacote sem quebrar a compatibilidade com versões anteriores.
+Essas atualizações podem adicionar novas funcionalidades ou aprimorar as existentes.
+Exemplo: 1.0.0 para 1.1.0
+Versão Patch (PATCH):
+
+O terceiro número representa a versão patch.
+É alterado quando são feitas correções de bugs ou pequenas melhorias, sem adicionar novas funcionalidades.
+Essas atualizações são retrocompatíveis e não devem causar problemas no código existente.
+Exemplo: 1.0.0 para 1.0.1
+Utilizar o sistema de controle de versão semântico (SemVer) permite que desenvolvedores e ferramentas gerenciem as dependências de forma mais eficiente. Por exemplo, ao especificar uma dependência como "^1.0.0", você está permitindo que o npm instale a versão mais recente da série "1.x.x", incluindo correções e novas funcionalidades menores, mas sem atualizar para a próxima série principal (2.x.x).
+
+Entender o significado das versões é fundamental para evitar problemas de compatibilidade e garantir que você esteja usando as versões adequadas dos pacotes em seu projeto. Sempre leia as notas de lançamento e as alterações na documentação do pacote ao atualizar as dependências para garantir que as mudanças não afetem seu código existente.
